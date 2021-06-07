@@ -1,0 +1,90 @@
+# **METODOLOGIA** 
+
+## Caracterização da Area de Estudo
+
+A abrangência geográfia dos dados refrentes ao Anuário Estatístico, contempla as informações coletadas dos boletins de ocorrências policiais, sobre acidentes de trânsito em mais de 570 delegacias, distribuídos em 144 municípios do Estado do Pará.
+
+
+## **Fonte de Coleta de Dados**
+
+A coleta dos dados para este estudo foi feita junto às fontes secundárias oriundas do Sistema Integrado de Segurança Pública (SISP) e dos Boletins da Polícia Rodoviária Estadual, solicitados pelo Departamento Estadual de Trânsito (DETRAN-PA), através da Gerência de Análise e Estatística de Acidente (GAETRA) vinculado a Coordenadoria do Núcleo de Planejamento (CNP), que por meio do SISP consegue ter acesso às informações referentes à ocorrência de acidentes de trânsito no interior do Estado e na capital formando um banco de dados com informações sobre tipo de acidentes de trânsito, o(s) veículo(s) e a(s) vítima(s) envolvida(s) no(s) acidente(s) entre outras. Sendo que estas informações provêm das delegacias de polícia civil das cidades que estão conectadas on-line ao sistema.
+
+As Delegacias de Polícia Civil, por meio de seu Boletim de Ocorrência (BO), são as fontes que fornecem maior quantidade de registros de acidentes de trânsito no Estado do Pará. Nesta fonte é possível ter acesso às informações, eventos tanto em vias municipais, quanto em rodovias estaduais e federais, com vítima ou sem vítima.
+
+
+
+## **Tratamento dos Dados**  
+
+Após a transferência dos dados, estes são submetidos a um filtro, em
+que a maioria das ocorrências é selecionada para a crítica geral com, pelo menos, um problema de consistência interna.
+
+
+## **Disseminação dos Dados** 
+
+A disseminação de dados é feita pela divulgação de anuários, boletins e estudos para órgãos
+interessados nas políticas de trânsito, além da disponibilização das principais informações no sítio eletrônico
+do Detran-PA.
+
+
+## **Revisão Final**
+
+Após a conclusão de todas as etapas de crítica citadas anteriormente, são geradas algumas tabelas com o cruzamento das principais variáveis, para verificação final da consistência dos dados. Além disso, é feita uma crítica para a verificação de ocorrências duplicadas selecionando-se as placas de veículos envolvidos em acidentes que são repetidas e comparando-se o local, horário e endereço das ocorrências suspeitas. As ocorrências repetidas são excluídas do banco. 
+
+
+## **Versão Web**
+
+- Para criação do Anuário Estatístico em formato Web, foi criado um script em Linguagem de Programação **R-PROJECT versão 4.05** e um Ambiente de Desenvolvimento Integrado(IDE) chamado **Rstudio versão 1.4.1** com uso de vários pacotes, para o ambiente Windows. 
+
+- O Anuário em versão web, implementado em linguagem de programação R, possui a vantagem de ser um ambiente de computação estatistica no formato de projeto de software livre de código aberto (open source), ou seja, pode ser utilizado sem custos de licença (R DEVELOPMENT CORE TEAM, 2020).
+
+
+## **Sistema de Estatística de Sinistro de Trânsito (SEST)**
+
+- Um sistema de acidentes de trânsito devem processar os dados coletados de maneira que estes possam ser analisados globalmente e decisões baseadas em dados reais possam ser tomadas
+
+- A implementação do SEAT permiti centralizar e armazenar todas as informações, para que sejam utilizadas como pesquisa de informação e favoreçam no processo de tomada de decisão pelas autoridades competentes na melhoria do sistema viário.
+
+
+### Fluxograma do SEST
+
+Foi desenhado um processo padrão para coleta, análise, transferência e divulgação dos Dados entre DETRA-PA e os diversos atores do trânsito. 
+
+
+**Figura 01**. Fluxograma das Processo de Sinistros de Trânsito no Estado do Pará.
+
+
+```{r diagrama1, echo=FALSE, message=FALSE, warning=FALSE}
+library(htmlwidgets)
+library(htmltools)
+library(DiagrammeR)
+mermaid("
+graph LR
+A{SEST}-->B[COLETA DE DADOS]
+B-->C[CRÍTICA DE DADOS]
+C-->D[ANÁLISE DE DADOS]
+D-->E{DISSEMINAÇÃO}
+E-->F[CIRETRAN]
+E-->G[DEMUTRANS]
+E-->H[IMPRENSA]
+E-->I[POPULAÇÃO]
+", width = 700)
+```
+
+
+
+## **Alinhamento do Anuário com RENAEST/ODS** 
+
+O Governo Federal lançou em 2018 a lei do PNATRANS, com objetivo de reduzir os óbitos no trânsito. A Lei nº 13.614/2018 criou **Plano Nacional de Redução de Mortes e Lesões no Trânsito (PNATRANS)**, acrescentando o artigo 326-A ao Código de Trânsito Brasileiro (CTB), e propôs um novo desafio para a gestão de trânsito no Brasil e para os orgãos integrados do Sistema Nacional de Trânsito (SNT).
+
+
+Em 2020, foi realizado um diagnóstico, envolvendo todas as Unidades Federativas com o objetivo de estabelecer uma metodologia padronizada de coleta e tratamento dos dados sobre acidentes de trânsito e uma gestão baseada em análises e melhoria do sistema de segurança viária para todo Brasil. A fim de definir dados mínimos sobre acidentes de forma padronizada, alinhar as Unidades Federativas sobre o processo e sobre a implantação do modelo e, por fim, garantir análises e atuação sobre as causas críticas com intuito de minimizar os acidentes de trânsito no país.
+
+
+A partir da base de dados de acidente que está sendo consolidada através do Anuário Estatístico do DETRAN-PA, as informações serão disponibilizadas por meio de um site interativo pela autarquia de trânsito para auxiliar no processo de análise e proposição de ações e políticas públicas para redução dos óbitos em acidentes de trânsito no Estado do Pará.
+
+
+Nesse contexto, o Anuário Estatístico de Sinistros de Trânsito, será construído em Alinhamento ao Manual de Gestão do **RENAEST (Resolução do CONTRAN Nº808/2020)**, utilizando metodologias factíveis com estatísticas de trânsito padronizada para todo o Território Nacional, e aos **Objetivos de Desenvolvimento Sustentáveis (Resolução da ONU Nº70/2015)** levando em conta os objetivos 3.6 (Até 2030, reduzir 50% as mortes e os ferimentos globais por acidentes em estradas) e 11.2 (até 2030, proporcionar o acesso a sistemas de transporte seguros, acessíveis, sustentáveis e a preço acessível para todos, melhorando a segurança rodoviária por meio da expansão dos transportes públicos, com especial atenção para as necessidades das pessoas em situação de vulnerabilidade, mulheres, crianças, pessoas com deficiência e idosos).
+
+
+
+

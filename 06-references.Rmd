@@ -1,0 +1,59 @@
+# **REFERÊNCIAS BIBLIOGRÁFICAS**
+
+- R DEVELOPMENT CORE TEAM. R4.0: A language and Enviornment for Statistical Computing, 2020.<https://cran.r-project.org/bin/windows/base> 
+
+- RSTUDIO. Rstudio: Integrated Development Environment for R (versão 1.2.5).<https://rstudio.com/products/rstudio/download/#download>
+
+
+- Allaire, JJ, Yihui Xie, Jonathan McPherson, Javier Luraschi, Kevin Ushey, Aron Atkins, Hadley Wickham, Joe Cheng, Winston Chang e Richard Iannone. 2020. Rmarkdown: Documentos dinâmicos para r.
+
+- Field, A. P., Miles, J., & Field, Z. (2012). Discovering statistics using R.<https://aedmoodle.ufpa.br/pluginfile.php/401852/mod_resource/content/5/Material_PDF/1.Discovering%20Statistics%20Using%20R.pdf>
+
+
+- Soares DFPP, Barros MBA. Fatores associados ao risco de internação por acidentes de trânsito no
+Município de Maringá-PR. Rev Bras Epidemiol. 2006 jun;9(2):193-205. Disponível em:<https://www.scielo.br/pdf/rbepid/v9n2/06.pdf>. Acesso em: 23 mar. 2021.
+
+
+- UNITED NATIONS. General Assembly. A/RES/64/255. Improving global road safety. Resolution adopted by the General Assembly on 2 March 2010. New York: United Nations, 2010. Disponível em:<https://undocs.org/en/A/RES/64/255>. Acesso em: 23 mar. 2021.
+
+- UNITED NATIONS. General Assembly. A/RES/74/299. Improving global road safety. Resolution adopted by the General Assembly on 31 August 2020. New York: United Nations, 2020. Disponível em:<https://www.un.org/en/ga/search/view_doc.asp?symbol=A/RES/74/299>. Acesso em: 23 mar. 2021.
+
+- UNITED NATIONS. General Assembly. A/74/304. Improving global road safety. Note by the Secretary-General. New York: United Nations, 13 August 2019. Disponível em:<https://undocs.org/en/A/74/304>. Acesso em: 23 mar. 2021. 
+
+
+- DETRAN-PA-Departamento Estadual de Trânsito do Pará. Relatório sobre Frota em circulação no Pará. 
+
+- DETRAN-PA-Departamento Estadual de Trânsito do Pará. Relatório de Condutores Habilitados no Pará.
+
+- ABNT NBR n°6067/2007, Veículos Rodoviários, seus reboques e combinados, Classificação terminologia e definições. 
+
+- ABNT NBR n°10697/2020, Pesquisas de Sinistros de Trânsito, Terminologia.
+
+
+<div class = "progress progress-stripes active">
+  <div class = "progress-bar" style = "width: 100%"> </div>
+</div>
+
+
+
+## **Créditos**
+
+- **DEPARTAMENTO DE TRÂNSITO DO ESTADO DO PARÁ - DETRAN-PA**
+- **AVENIDA: AUGUSTO MONTENEGRO KM 03 S/N**
+- **CEP 66635-918 - PARQUE VERDE - BELÉM - PARÁ**
+- **<https://www.detran.pa.gov.br>**
+
+
+Esta publicação deve ser citada como: **Departamento de Trânsito do Estado do Pará (DETRAN-PA), Anuário Estatístico de Acidentes de Trânsito, 2020 (LC/PUB.2021/1-P), Belém, 2021**.
+
+
+
+A autorização para a reprodução total ou parcial deste trabalho deve ser solicitada ao Departamento de Trânsito do Estado do Pará, Gerência de Análise e Estatística de Trânsito, gerest@detran.pa.gov.br. Os Estados membros das Nações Unidas e suas instituições governamentais podem reproduzir este trabalho sem autorização prévia. Solicita-se apenas que mencionem a fonte e informem ao DETRAN-PA de tal reprodução.
+
+
+
+## **Sugestões**
+
+
+Reclamações, sugestões, críticas e elogios relacionados ao Anuário
+Estatístico de Acidentes de Trânsito do DETRAN-PA podem ser registrados na Gerência de Análise Estatística de Trânsito, por intermédio do e-mail: gerest@detran.pa.gov.br.

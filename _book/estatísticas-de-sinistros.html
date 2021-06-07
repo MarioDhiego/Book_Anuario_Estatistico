@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 9 Estatísticas de Sinistros | ANUÁRIO ESTATÍSTICO DE TRÂNSITO NO PARÁ</title>
+  <meta name="description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 9 Estatísticas de Sinistros | ANUÁRIO ESTATÍSTICO DE TRÂNSITO NO PARÁ" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 9 Estatísticas de Sinistros | ANUÁRIO ESTATÍSTICO DE TRÂNSITO NO PARÁ" />
+  
+  <meta name="twitter:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  
+
+<meta name="author" content="[Gerência de Análise e Estatística de Trânsito]" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="estatísticas-de-condutores.html"/>
+<link rel="next" href="educação-de-trânsito.html"/>
+<script src="libs/header-attrs-2.8/header-attrs.js"></script>
+<script src="libs/jquery-3.5.1/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<script src="libs/d3-3.3.8/d3.min.js"></script>
+<script src="libs/dagre-0.4.0/dagre-d3.min.js"></script>
+<link href="libs/mermaid-0.3.0/dist/mermaid.css" rel="stylesheet" />
+<script src="libs/mermaid-0.3.0/dist/mermaid.slim.min.js"></script>
+<link href="libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet" />
+<script src="libs/chromatography-0.1/chromatography.js"></script>
+<script src="libs/DiagrammeR-binding-1.0.6.1/DiagrammeR.js"></script>
+<link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding-0.18/datatables.js"></script>
+<link href="libs/dt-core-bootstrap-1.10.20/css/dataTables.bootstrap.min.css" rel="stylesheet" />
+<link href="libs/dt-core-bootstrap-1.10.20/css/dataTables.bootstrap.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-bootstrap-1.10.20/js/jquery.dataTables.min.js"></script>
+<script src="libs/dt-core-bootstrap-1.10.20/js/dataTables.bootstrap.min.js"></script>
+<script src="libs/jszip-1.10.20/jszip.min.js"></script>
+<script src="libs/pdfmake-1.10.20/pdfmake.js"></script>
+<script src="libs/pdfmake-1.10.20/vfs_fonts.js"></script>
+<link href="libs/dt-ext-buttons-bootstrap-1.10.20/css/buttons.bootstrap.min.css" rel="stylesheet" />
+<script src="libs/dt-ext-buttons-bootstrap-1.10.20/js/dataTables.buttons.min.js"></script>
+<script src="libs/dt-ext-buttons-bootstrap-1.10.20/js/buttons.flash.min.js"></script>
+<script src="libs/dt-ext-buttons-bootstrap-1.10.20/js/buttons.html5.min.js"></script>
+<script src="libs/dt-ext-buttons-bootstrap-1.10.20/js/buttons.colVis.min.js"></script>
+<script src="libs/dt-ext-buttons-bootstrap-1.10.20/js/buttons.print.min.js"></script>
+<script src="libs/dt-ext-buttons-bootstrap-1.10.20/js/buttons.bootstrap.min.js"></script>
+<script src="libs/dt-plugin-natural-1.10.20/source.js"></script>
+<link href="libs/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.1.1/js/crosstalk.min.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Minimal Book Example</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> <strong>PREFÁCIO</strong></a></li>
+<li class="chapter" data-level="2" data-path="introdução.html"><a href="introdução.html"><i class="fa fa-check"></i><b>2</b> <strong>INTRODUÇÃO</strong></a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="introdução.html"><a href="introdução.html#justificativa-e-importância-do-anuário"><i class="fa fa-check"></i><b>2.1</b> Justificativa e Importância do Anuário</a></li>
+<li class="chapter" data-level="2.2" data-path="introdução.html"><a href="introdução.html#objetivos"><i class="fa fa-check"></i><b>2.2</b> Objetivos</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="introdução.html"><a href="introdução.html#objetivo-geral"><i class="fa fa-check"></i><b>2.2.1</b> Objetivo Geral</a></li>
+<li class="chapter" data-level="2.2.2" data-path="introdução.html"><a href="introdução.html#objetivos-específicos"><i class="fa fa-check"></i><b>2.2.2</b> Objetivos Específicos</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="metodologia.html"><a href="metodologia.html"><i class="fa fa-check"></i><b>3</b> <strong>METODOLOGIA</strong></a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="metodologia.html"><a href="metodologia.html#caracterização-da-area-de-estudo"><i class="fa fa-check"></i><b>3.1</b> Caracterização da Area de Estudo</a></li>
+<li class="chapter" data-level="3.2" data-path="metodologia.html"><a href="metodologia.html#fonte-de-coleta-de-dados"><i class="fa fa-check"></i><b>3.2</b> <strong>Fonte de Coleta de Dados</strong></a></li>
+<li class="chapter" data-level="3.3" data-path="metodologia.html"><a href="metodologia.html#tratamento-dos-dados"><i class="fa fa-check"></i><b>3.3</b> <strong>Tratamento dos Dados</strong></a></li>
+<li class="chapter" data-level="3.4" data-path="metodologia.html"><a href="metodologia.html#disseminação-dos-dados"><i class="fa fa-check"></i><b>3.4</b> <strong>Disseminação dos Dados</strong></a></li>
+<li class="chapter" data-level="3.5" data-path="metodologia.html"><a href="metodologia.html#revisão-final"><i class="fa fa-check"></i><b>3.5</b> <strong>Revisão Final</strong></a></li>
+<li class="chapter" data-level="3.6" data-path="metodologia.html"><a href="metodologia.html#versão-web"><i class="fa fa-check"></i><b>3.6</b> <strong>Versão Web</strong></a></li>
+<li class="chapter" data-level="3.7" data-path="metodologia.html"><a href="metodologia.html#sistema-de-estatística-de-sinistro-de-trânsito-sest"><i class="fa fa-check"></i><b>3.7</b> <strong>Sistema de Estatística de Sinistro de Trânsito (SEST)</strong></a>
+<ul>
+<li class="chapter" data-level="3.7.1" data-path="metodologia.html"><a href="metodologia.html#fluxograma-do-sest"><i class="fa fa-check"></i><b>3.7.1</b> Fluxograma do SEST</a></li>
+</ul></li>
+<li class="chapter" data-level="3.8" data-path="metodologia.html"><a href="metodologia.html#alinhamento-do-anuário-com-renaestods"><i class="fa fa-check"></i><b>3.8</b> <strong>Alinhamento do Anuário com RENAEST/ODS</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="conceitos-e-definições-básicas.html"><a href="conceitos-e-definições-básicas.html"><i class="fa fa-check"></i><b>4</b> <strong>Conceitos e Definições Básicas</strong></a>
+<ul>
+<li class="chapter" data-level="4.0.1" data-path="conceitos-e-definições-básicas.html"><a href="conceitos-e-definições-básicas.html#sinistros-de-trânsito"><i class="fa fa-check"></i><b>4.0.1</b> <strong>SINISTROS DE TRÂNSITO</strong></a></li>
+<li class="chapter" data-level="4.0.2" data-path="conceitos-e-definições-básicas.html"><a href="conceitos-e-definições-básicas.html#veículos"><i class="fa fa-check"></i><b>4.0.2</b> <strong>VEÍCULOS</strong></a></li>
+<li class="chapter" data-level="4.0.3" data-path="conceitos-e-definições-básicas.html"><a href="conceitos-e-definições-básicas.html#pedestre"><i class="fa fa-check"></i><b>4.0.3</b> <strong>PEDESTRE</strong></a></li>
+<li class="chapter" data-level="4.0.4" data-path="conceitos-e-definições-básicas.html"><a href="conceitos-e-definições-básicas.html#condutor"><i class="fa fa-check"></i><b>4.0.4</b> <strong>CONDUTOR</strong></a></li>
+<li class="chapter" data-level="4.0.5" data-path="conceitos-e-definições-básicas.html"><a href="conceitos-e-definições-básicas.html#vítimas"><i class="fa fa-check"></i><b>4.0.5</b> <strong>VÍTIMAS</strong></a></li>
+<li class="chapter" data-level="4.0.6" data-path="conceitos-e-definições-básicas.html"><a href="conceitos-e-definições-básicas.html#vias"><i class="fa fa-check"></i><b>4.0.6</b> <strong>VIAS</strong></a></li>
+<li class="chapter" data-level="4.0.7" data-path="conceitos-e-definições-básicas.html"><a href="conceitos-e-definições-básicas.html#turnos"><i class="fa fa-check"></i><b>4.0.7</b> <strong>TURNOS</strong></a></li>
+<li class="chapter" data-level="4.0.8" data-path="conceitos-e-definições-básicas.html"><a href="conceitos-e-definições-básicas.html#taxa-de-internação"><i class="fa fa-check"></i><b>4.0.8</b> <strong>TAXA DE INTERNAÇÃO</strong></a></li>
+<li class="chapter" data-level="4.0.9" data-path="conceitos-e-definições-básicas.html"><a href="conceitos-e-definições-básicas.html#taxa-óbitohabitantes"><i class="fa fa-check"></i><b>4.0.9</b> <strong>TAXA ÓBITO/HABITANTES</strong></a></li>
+<li class="chapter" data-level="4.0.10" data-path="conceitos-e-definições-básicas.html"><a href="conceitos-e-definições-básicas.html#taxa-óbitoveículos"><i class="fa fa-check"></i><b>4.0.10</b> <strong>TAXA ÓBITO/VEÍCULOS</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="estatísticas-de-trânsito.html"><a href="estatísticas-de-trânsito.html"><i class="fa fa-check"></i><b>5</b> <strong>Estatísticas de Trânsito</strong></a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="estatísticas-de-trânsito.html"><a href="estatísticas-de-trânsito.html#frota-por-tipos-de-veículos"><i class="fa fa-check"></i><b>5.1</b> <strong>Frota por Tipos de Veículos</strong></a></li>
+<li class="chapter" data-level="5.2" data-path="estatísticas-de-trânsito.html"><a href="estatísticas-de-trânsito.html#frota-pot-tipos-de-categorias"><i class="fa fa-check"></i><b>5.2</b> <strong>Frota pot Tipos de Categorias</strong></a></li>
+<li class="chapter" data-level="5.3" data-path="estatísticas-de-trânsito.html"><a href="estatísticas-de-trânsito.html#frota-por-tipos-de-combustível"><i class="fa fa-check"></i><b>5.3</b> <strong>Frota por Tipos de Combustível</strong></a></li>
+<li class="chapter" data-level="5.4" data-path="estatísticas-de-trânsito.html"><a href="estatísticas-de-trânsito.html#frota-por-tipo-de-espécie"><i class="fa fa-check"></i><b>5.4</b> <strong>Frota por Tipo de Espécie</strong></a></li>
+<li class="chapter" data-level="5.5" data-path="estatísticas-de-trânsito.html"><a href="estatísticas-de-trânsito.html#frota-por-ano-de-fabricação"><i class="fa fa-check"></i><b>5.5</b> <strong>Frota por Ano de Fabricação</strong></a></li>
+<li class="chapter" data-level="5.6" data-path="estatísticas-de-trânsito.html"><a href="estatísticas-de-trânsito.html#frota-por-tipos-de-serviços-veiculares"><i class="fa fa-check"></i><b>5.6</b> <strong>Frota por Tipos de Serviços Veiculares</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="infração-de-trânsito.html"><a href="infração-de-trânsito.html"><i class="fa fa-check"></i><b>6</b> <strong>INFRAÇÃO DE TRÂNSITO</strong></a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="infração-de-trânsito.html"><a href="infração-de-trânsito.html#infração-de-trânsito-por-gravidade"><i class="fa fa-check"></i><b>6.1</b> <strong>Infração de Trânsito por Gravidade</strong></a></li>
+<li class="chapter" data-level="6.2" data-path="infração-de-trânsito.html"><a href="infração-de-trânsito.html#ranking-das-infrações"><i class="fa fa-check"></i><b>6.2</b> <strong>Ranking das Infrações</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="indicadores-de-acidentalidade.html"><a href="indicadores-de-acidentalidade.html"><i class="fa fa-check"></i><b>7</b> <strong>INDICADORES DE ACIDENTALIDADE</strong></a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="indicadores-de-acidentalidade.html"><a href="indicadores-de-acidentalidade.html#taxas"><i class="fa fa-check"></i><b>7.1</b> <strong>Taxas</strong></a></li>
+<li class="chapter" data-level="7.2" data-path="indicadores-de-acidentalidade.html"><a href="indicadores-de-acidentalidade.html#regularização"><i class="fa fa-check"></i><b>7.2</b> <strong>REGULARIZAÇÃO</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="estatísticas-de-condutores.html"><a href="estatísticas-de-condutores.html"><i class="fa fa-check"></i><b>8</b> <strong>Estatísticas de Condutores</strong></a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="estatísticas-de-condutores.html"><a href="estatísticas-de-condutores.html#categoria-da-cnh"><i class="fa fa-check"></i><b>8.1</b> <strong>CATEGORIA DA CNH</strong></a></li>
+<li class="chapter" data-level="8.2" data-path="estatísticas-de-condutores.html"><a href="estatísticas-de-condutores.html#faixa-etária"><i class="fa fa-check"></i><b>8.2</b> <strong>FAIXA ETÁRIA</strong></a></li>
+<li class="chapter" data-level="8.3" data-path="estatísticas-de-condutores.html"><a href="estatísticas-de-condutores.html#sexo"><i class="fa fa-check"></i><b>8.3</b> <strong>SEXO</strong></a></li>
+<li class="chapter" data-level="8.4" data-path="estatísticas-de-condutores.html"><a href="estatísticas-de-condutores.html#serviços-de-cnh"><i class="fa fa-check"></i><b>8.4</b> <strong>SERVIÇOS DE CNH</strong></a></li>
+<li class="chapter" data-level="8.5" data-path="estatísticas-de-condutores.html"><a href="estatísticas-de-condutores.html#exames"><i class="fa fa-check"></i><b>8.5</b> <strong>Exames</strong></a></li>
+<li class="chapter" data-level="8.6" data-path="estatísticas-de-condutores.html"><a href="estatísticas-de-condutores.html#municípios"><i class="fa fa-check"></i><b>8.6</b> <strong>MUNICÍPIOS</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="estatísticas-de-sinistros.html"><a href="estatísticas-de-sinistros.html"><i class="fa fa-check"></i><b>9</b> <strong>Estatísticas de Sinistros</strong></a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="estatísticas-de-sinistros.html"><a href="estatísticas-de-sinistros.html#tipos"><i class="fa fa-check"></i><b>9.1</b> <strong>TIPOS</strong></a></li>
+<li class="chapter" data-level="9.2" data-path="estatísticas-de-sinistros.html"><a href="estatísticas-de-sinistros.html#meses"><i class="fa fa-check"></i><b>9.2</b> <strong>MESES</strong></a></li>
+<li class="chapter" data-level="9.3" data-path="estatísticas-de-sinistros.html"><a href="estatísticas-de-sinistros.html#dias-da-semana"><i class="fa fa-check"></i><b>9.3</b> <strong>DIAS DA SEMANA</strong></a></li>
+<li class="chapter" data-level="9.4" data-path="estatísticas-de-sinistros.html"><a href="estatísticas-de-sinistros.html#turno"><i class="fa fa-check"></i><b>9.4</b> <strong>TURNO</strong></a></li>
+<li class="chapter" data-level="9.5" data-path="estatísticas-de-sinistros.html"><a href="estatísticas-de-sinistros.html#feridos"><i class="fa fa-check"></i><b>9.5</b> <strong>FERIDOS</strong></a></li>
+<li class="chapter" data-level="9.6" data-path="estatísticas-de-sinistros.html"><a href="estatísticas-de-sinistros.html#mortos"><i class="fa fa-check"></i><b>9.6</b> <strong>MORTOS</strong></a></li>
+<li class="chapter" data-level="9.7" data-path="estatísticas-de-sinistros.html"><a href="estatísticas-de-sinistros.html#principais-causas"><i class="fa fa-check"></i><b>9.7</b> <strong>PRINCIPAIS CAUSAS</strong></a></li>
+<li class="chapter" data-level="9.8" data-path="estatísticas-de-sinistros.html"><a href="estatísticas-de-sinistros.html#municípios-1"><i class="fa fa-check"></i><b>9.8</b> <strong>MUNICÍPIOS</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="educação-de-trânsito.html"><a href="educação-de-trânsito.html"><i class="fa fa-check"></i><b>10</b> <strong>Educação de Trânsito</strong></a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="educação-de-trânsito.html"><a href="educação-de-trânsito.html#terpaz"><i class="fa fa-check"></i><b>10.1</b> <strong>TERPAZ</strong></a></li>
+<li class="chapter" data-level="10.2" data-path="educação-de-trânsito.html"><a href="educação-de-trânsito.html#palestras"><i class="fa fa-check"></i><b>10.2</b> <strong>PALESTRAS</strong></a></li>
+<li class="chapter" data-level="10.3" data-path="educação-de-trânsito.html"><a href="educação-de-trânsito.html#operações-sazonais"><i class="fa fa-check"></i><b>10.3</b> <strong>OPERAÇÕES SAZONAIS</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="operações-de-fiscalização.html"><a href="operações-de-fiscalização.html"><i class="fa fa-check"></i><b>11</b> <strong>Operações de Fiscalização</strong></a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="operações-de-fiscalização.html"><a href="operações-de-fiscalização.html#operações"><i class="fa fa-check"></i><b>11.1</b> <strong>OPERAÇÕES</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="processos-jurídicos.html"><a href="processos-jurídicos.html"><i class="fa fa-check"></i><b>12</b> <strong>Processos Jurídicos</strong></a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="processos-jurídicos.html"><a href="processos-jurídicos.html#processos"><i class="fa fa-check"></i><b>12.1</b> <strong>PROCESSOS</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="final-words.html"><a href="final-words.html"><i class="fa fa-check"></i><b>13</b> Final Words</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">ANUÁRIO ESTATÍSTICO DE TRÂNSITO NO PARÁ</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="estatísticas-de-sinistros" class="section level1 tabset tabset-fade tabset-pills" number="9">
+<h1><span class="header-section-number">Chapter 9</span> <strong>Estatísticas de Sinistros</strong></h1>
+<div id="tipos" class="section level2" number="9.1">
+<h2><span class="header-section-number">9.1</span> <strong>TIPOS</strong></h2>
+<p><strong>Tabela 18</strong>. Sinistros de Trânsito por Tipo, segundo Ano no Estado do Pará, no período de 2016 a 2020.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center"><strong>TIPOS</strong></th>
+<th align="center"><span class="math inline">\(2016\)</span></th>
+<th align="center"><span class="math inline">\(2017\)</span></th>
+<th align="center"><span class="math inline">\(2018\)</span></th>
+<th align="center"><span class="math inline">\(2019\)</span></th>
+<th align="center"><span class="math inline">\(2020\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><code>ABALROAMENTO</code></td>
+<td align="center">1.065</td>
+<td align="center">1.133</td>
+<td align="center">1.294</td>
+<td align="center">941</td>
+<td align="center">502</td>
+</tr>
+<tr class="even">
+<td align="center"><code>ATROPELAMENTO</code></td>
+<td align="center">2.082</td>
+<td align="center">1.866</td>
+<td align="center">1.341</td>
+<td align="center">1.489</td>
+<td align="center">728</td>
+</tr>
+<tr class="odd">
+<td align="center"><code>CAPOTAMENTO</code></td>
+<td align="center">511</td>
+<td align="center">630</td>
+<td align="center">690</td>
+<td align="center">541</td>
+<td align="center">446</td>
+</tr>
+<tr class="even">
+<td align="center"><code>CHOQUE cOM OBJETO FIXO</code></td>
+<td align="center">1.040</td>
+<td align="center">1.054</td>
+<td align="center">1.158</td>
+<td align="center">950</td>
+<td align="center">834</td>
+</tr>
+<tr class="odd">
+<td align="center"><code>COLISÃO COM BICICLETA</code></td>
+<td align="center">1.283</td>
+<td align="center">1.122</td>
+<td align="center">811</td>
+<td align="center">852</td>
+<td align="center">549</td>
+</tr>
+<tr class="even">
+<td align="center"><code>COLISÃO ENTRE VEÍCULOS</code></td>
+<td align="center">19.005</td>
+<td align="center">19.484</td>
+<td align="center">21.127</td>
+<td align="center">20.275</td>
+<td align="center">14.221</td>
+</tr>
+<tr class="odd">
+<td align="center"><code>QUEDA DE MOTOCICLETA</code></td>
+<td align="center">5.342</td>
+<td align="center">5.251</td>
+<td align="center">4.148</td>
+<td align="center">4.931</td>
+<td align="center">4.226</td>
+</tr>
+<tr class="even">
+<td align="center"><code>QUEDA DE ÔNIBUS</code></td>
+<td align="center">227</td>
+<td align="center">244</td>
+<td align="center">164</td>
+<td align="center">150</td>
+<td align="center">61</td>
+</tr>
+<tr class="odd">
+<td align="center"><code>TOMBAMENTO</code></td>
+<td align="center">353</td>
+<td align="center">412</td>
+<td align="center">534</td>
+<td align="center">432</td>
+<td align="center">412</td>
+</tr>
+<tr class="even">
+<td align="center"><code>OUTROS</code></td>
+<td align="center">115</td>
+<td align="center">120</td>
+<td align="center">117</td>
+<td align="center">105</td>
+<td align="center">20</td>
+</tr>
+<tr class="odd">
+<td align="center"><code>TOTAL GERAL</code></td>
+<td align="center">31.023</td>
+<td align="center">31.316</td>
+<td align="center">31.384</td>
+<td align="center">30.666</td>
+<td align="center">21.099</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Fonte: CNP/DETRAN-PA</strong></p>
+<div class="progress">
+<div class="progress-bar" style="width: 100%;">
+
+</div>
+</div>
+</div>
+<div id="meses" class="section level2" number="9.2">
+<h2><span class="header-section-number">9.2</span> <strong>MESES</strong></h2>
+<p><strong>Tabela 19</strong>. Sinistros de Trânsito por Mês, segundo Ano no Estado do Pará, no período de 2016 a 2020.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center"><strong>MESES</strong></th>
+<th align="center"><span class="math inline">\(2016\)</span></th>
+<th align="center"><span class="math inline">\(2017\)</span></th>
+<th align="center"><span class="math inline">\(2018\)</span></th>
+<th align="center"><span class="math inline">\(2019\)</span></th>
+<th align="center"><span class="math inline">\(2020\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><code>JANEIRO</code></td>
+<td align="center">2.858</td>
+<td align="center">2.458</td>
+<td align="center">2.859</td>
+<td align="center">2.795</td>
+<td align="center">2.501</td>
+</tr>
+<tr class="even">
+<td align="center"><code>FEVEREIRO</code></td>
+<td align="center">2.557</td>
+<td align="center">2.194</td>
+<td align="center">2.901</td>
+<td align="center">2.706</td>
+<td align="center">2.433</td>
+</tr>
+<tr class="odd">
+<td align="center"><code>MARÇO</code></td>
+<td align="center">2.242</td>
+<td align="center">2.365</td>
+<td align="center">2.972</td>
+<td align="center">2.715</td>
+<td align="center">2.449</td>
+</tr>
+<tr class="even">
+<td align="center"><code>ABRIL</code></td>
+<td align="center">2.457</td>
+<td align="center">2.193</td>
+<td align="center">2.637</td>
+<td align="center">2.500</td>
+<td align="center">2.450</td>
+</tr>
+<tr class="odd">
+<td align="center"><code>MAIO</code></td>
+<td align="center">2.680</td>
+<td align="center">2.677</td>
+<td align="center">2.770</td>
+<td align="center">2.689</td>
+<td align="center">2.539</td>
+</tr>
+<tr class="even">
+<td align="center"><code>JUNHO</code></td>
+<td align="center">2.662</td>
+<td align="center">3.183</td>
+<td align="center">2.441</td>
+<td align="center">2.690</td>
+<td align="center">2.508</td>
+</tr>
+<tr class="odd">
+<td align="center"><code>JULHO</code></td>
+<td align="center">2.525</td>
+<td align="center">2.813</td>
+<td align="center">2.568</td>
+<td align="center">2.471</td>
+<td align="center">2.328</td>
+</tr>
+<tr class="even">
+<td align="center"><code>AGOSTO</code></td>
+<td align="center">2.626</td>
+<td align="center">2.525</td>
+<td align="center">3.120</td>
+<td align="center">2.450</td>
+<td align="center">2.301</td>
+</tr>
+<tr class="odd">
+<td align="center"><code>SETEMBRO</code></td>
+<td align="center">2.724</td>
+<td align="center">3.032</td>
+<td align="center">2.885</td>
+<td align="center">2.605</td>
+<td align="center">2.409</td>
+</tr>
+<tr class="even">
+<td align="center"><code>OUTUBRO</code></td>
+<td align="center">2.810</td>
+<td align="center">3.064</td>
+<td align="center">2.151</td>
+<td align="center">2.516</td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="center"><code>NOVEMBRO</code></td>
+<td align="center">2.421</td>
+<td align="center">2.444</td>
+<td align="center">2.176</td>
+<td align="center">2.225</td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="center"><code>DEZEMBRO</code></td>
+<td align="center">2.461</td>
+<td align="center">2.368</td>
+<td align="center">1.904</td>
+<td align="center">2.304</td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="center"><code>TOTAL GERAL</code></td>
+<td align="center">31.026</td>
+<td align="center">31.316</td>
+<td align="center">31.384</td>
+<td align="center">30.666</td>
+<td align="center">21.099</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Fonte: CNP/DETRAN-PA</strong></p>
+<div class="progress">
+<div class="progress-bar" style="width: 100%;">
+
+</div>
+</div>
+</div>
+<div id="dias-da-semana" class="section level2" number="9.3">
+<h2><span class="header-section-number">9.3</span> <strong>DIAS DA SEMANA</strong></h2>
+<p><strong>Tabela 20</strong>. Sinistross de Trânsito por Dias da Semana, segundo Ano no Estado do Pará, no período de 2016 a 2020.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center"><strong>DIAS D SEMANA</strong></th>
+<th align="center"><span class="math inline">\(2016\)</span></th>
+<th align="center"><span class="math inline">\(2017\)</span></th>
+<th align="center"><span class="math inline">\(2018\)</span></th>
+<th align="center"><span class="math inline">\(2019\)</span></th>
+<th align="center"><span class="math inline">\(2020\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><code>DOMINGO</code></td>
+<td align="center">5.349</td>
+<td align="center">5.242</td>
+<td align="center">4.420</td>
+<td align="center">4.313</td>
+<td align="center">3.004</td>
+</tr>
+<tr class="even">
+<td align="center"><code>SEGUNDA-FEIRA</code></td>
+<td align="center">4.309</td>
+<td align="center">4.491</td>
+<td align="center">4.921</td>
+<td align="center">4.607</td>
+<td align="center">2.980</td>
+</tr>
+<tr class="odd">
+<td align="center"><code>TERÇA-FEIRA</code></td>
+<td align="center">3.897</td>
+<td align="center">4.008</td>
+<td align="center">4.381</td>
+<td align="center">4.307</td>
+<td align="center">2.935</td>
+</tr>
+<tr class="even">
+<td align="center"><code>QUARTA-FEIRA</code></td>
+<td align="center">3.929</td>
+<td align="center">4.133</td>
+<td align="center">4.299</td>
+<td align="center">4.247</td>
+<td align="center">2.937</td>
+</tr>
+<tr class="odd">
+<td align="center"><code>QUINTA-FEIRA</code></td>
+<td align="center">3.870</td>
+<td align="center">4.159</td>
+<td align="center">4.180</td>
+<td align="center">4.199</td>
+<td align="center">2.934</td>
+</tr>
+<tr class="even">
+<td align="center"><code>SEXTA-FEIRA</code></td>
+<td align="center">4.696</td>
+<td align="center">4.490</td>
+<td align="center">4.732</td>
+<td align="center">4.586</td>
+<td align="center">3.814</td>
+</tr>
+<tr class="odd">
+<td align="center"><code>SABADO</code></td>
+<td align="center">4.973</td>
+<td align="center">4.793</td>
+<td align="center">4.451</td>
+<td align="center">4.407</td>
+<td align="center">3.395</td>
+</tr>
+<tr class="even">
+<td align="center"><code>TOTAL GERAL</code></td>
+<td align="center">31.023</td>
+<td align="center">31.316</td>
+<td align="center">31.384</td>
+<td align="center">30.666</td>
+<td align="center">21.999</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Fonte: CNP/DETRAN-PA</strong></p>
+<div class="progress">
+<div class="progress-bar" style="width: 100%;">
+
+</div>
+</div>
+</div>
+<div id="turno" class="section level2" number="9.4">
+<h2><span class="header-section-number">9.4</span> <strong>TURNO</strong></h2>
+<p><strong>Tabela 21</strong>. Sinistros de Trânsito por Turno, segundo Ano no Estado do Pará, no período de 2016 a 2020.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center"><strong>TURNO</strong></th>
+<th align="center"><span class="math inline">\(2016\)</span></th>
+<th align="center"><span class="math inline">\(2017\)</span></th>
+<th align="center"><span class="math inline">\(2018\)</span></th>
+<th align="center"><span class="math inline">\(2019\)</span></th>
+<th align="center"><span class="math inline">\(2020\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><code>00:01 |--- 05:59</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="center"><code>06:00 |--- 11:59</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="center"><code>12:00 |--- 17:59</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="center"><code>18:00 |--- 23:59</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="center"><code>TOTAL GERAL</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Fonte: CNP/DETRAN-PA</strong></p>
+<div class="progress">
+<div class="progress-bar" style="width: 100%;">
+
+</div>
+</div>
+</div>
+<div id="feridos" class="section level2" number="9.5">
+<h2><span class="header-section-number">9.5</span> <strong>FERIDOS</strong></h2>
+<p><strong>Tabela 22</strong>. Sinistros de Trânsito por Tipos de Vítimas, segundo Ano no Estado do Pará, no período de 2016 a 2020.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center"><strong>FERIDOS</strong></th>
+<th align="center"><span class="math inline">\(2016\)</span></th>
+<th align="center"><span class="math inline">\(2017\)</span></th>
+<th align="center"><span class="math inline">\(2018\)</span></th>
+<th align="center"><span class="math inline">\(2019\)</span></th>
+<th align="center"><span class="math inline">\(2020\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><code>PEDESTRE</code></td>
+<td align="center">1.985</td>
+<td align="center">1.717</td>
+<td align="center">1.720</td>
+<td align="center">1.639</td>
+<td align="center">1.012</td>
+</tr>
+<tr class="even">
+<td align="center"><code>PASSAGEIRO</code></td>
+<td align="center">4.096</td>
+<td align="center">3.506</td>
+<td align="center">3.735</td>
+<td align="center">3.310</td>
+<td align="center">2.180</td>
+</tr>
+<tr class="odd">
+<td align="center"><code>CICLISTA</code></td>
+<td align="center">1.036</td>
+<td align="center">896</td>
+<td align="center">895</td>
+<td align="center">731</td>
+<td align="center">614</td>
+</tr>
+<tr class="even">
+<td align="center"><code>CONDUTOR</code></td>
+<td align="center">660</td>
+<td align="center">601</td>
+<td align="center">609</td>
+<td align="center">558</td>
+<td align="center">348</td>
+</tr>
+<tr class="odd">
+<td align="center"><code>MOTOCICLISTA</code></td>
+<td align="center">12.189</td>
+<td align="center">12.434</td>
+<td align="center">12.058</td>
+<td align="center">11.777</td>
+<td align="center">7.650</td>
+</tr>
+<tr class="even">
+<td align="center"><code>TOTAL GERAL</code></td>
+<td align="center">19.933</td>
+<td align="center">19.154</td>
+<td align="center">19.017</td>
+<td align="center">18.015</td>
+<td align="center">11.804</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Fonte: CNP/DETRAN-PA</strong></p>
+<div class="progress">
+<div class="progress-bar" style="width: 100%;">
+
+</div>
+</div>
+</div>
+<div id="mortos" class="section level2" number="9.6">
+<h2><span class="header-section-number">9.6</span> <strong>MORTOS</strong></h2>
+<p><strong>Tabela 23</strong>. Sinistros de Trânsito por Tipos de Vítimas Fatal, segundo Ano no Estado do Pará, no período de 2016 a 2020.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center"><strong>MORTOS</strong></th>
+<th align="center"><span class="math inline">\(2016\)</span></th>
+<th align="center"><span class="math inline">\(2017\)</span></th>
+<th align="center"><span class="math inline">\(2018\)</span></th>
+<th align="center"><span class="math inline">\(2019\)</span></th>
+<th align="center"><span class="math inline">\(2020\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><code>PEDESTRE</code></td>
+<td align="center">202</td>
+<td align="center">228</td>
+<td align="center">188</td>
+<td align="center">131</td>
+<td align="center">103</td>
+</tr>
+<tr class="even">
+<td align="center"><code>PASSAGEIRO</code></td>
+<td align="center">264</td>
+<td align="center">239</td>
+<td align="center">217</td>
+<td align="center">212</td>
+<td align="center">155</td>
+</tr>
+<tr class="odd">
+<td align="center"><code>CICLISTA</code></td>
+<td align="center">58</td>
+<td align="center">66</td>
+<td align="center">55</td>
+<td align="center">52</td>
+<td align="center">39</td>
+</tr>
+<tr class="even">
+<td align="center"><code>CONDUTOR</code></td>
+<td align="center">107</td>
+<td align="center">90</td>
+<td align="center">100</td>
+<td align="center">94</td>
+<td align="center">76</td>
+</tr>
+<tr class="odd">
+<td align="center"><code>MOTOCICLISTA</code></td>
+<td align="center">834</td>
+<td align="center">819</td>
+<td align="center">842</td>
+<td align="center">833</td>
+<td align="center">525</td>
+</tr>
+<tr class="even">
+<td align="center"><code>TOTAL GERAL</code></td>
+<td align="center">1.465</td>
+<td align="center">1.442</td>
+<td align="center">1.402</td>
+<td align="center">1.322</td>
+<td align="center">898</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Fonte: CNP/DETRAN-PA</strong></p>
+<div class="progress">
+<div class="progress-bar" style="width: 100%;">
+
+</div>
+</div>
+</div>
+<div id="principais-causas" class="section level2" number="9.7">
+<h2><span class="header-section-number">9.7</span> <strong>PRINCIPAIS CAUSAS</strong></h2>
+<p><strong>Tabela 24</strong>. Principais Causas de Sinistros de Trânsito, segundo Ano no Estado do Pará, no período de 2016 a 2020.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center"><strong>PRINCIPAIS CAUSAS</strong></th>
+<th align="center"><span class="math inline">\(2016\)</span></th>
+<th align="center"><span class="math inline">\(2017\)</span></th>
+<th align="center"><span class="math inline">\(2018\)</span></th>
+<th align="center"><span class="math inline">\(2019\)</span></th>
+<th align="center"><span class="math inline">\(2020\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><code>FALTA DE ATENÇÃO À CONDUÇÃO</code></td>
+<td align="center">5.960</td>
+<td align="center">6.513</td>
+<td align="center">9.106</td>
+<td align="center">8.387</td>
+<td align="center">6.999</td>
+</tr>
+<tr class="even">
+<td align="center"><code>PERDEU O CONTROLE</code></td>
+<td align="center">3.591</td>
+<td align="center">3.068</td>
+<td align="center">2.872</td>
+<td align="center">2.725</td>
+<td align="center">1.300</td>
+</tr>
+<tr class="odd">
+<td align="center"><code>MANOBRA IRREGULAR</code></td>
+<td align="center">2.232</td>
+<td align="center">1.963</td>
+<td align="center">1.906</td>
+<td align="center">1.885</td>
+<td align="center">1.356</td>
+</tr>
+<tr class="even">
+<td align="center"><code>DESREIPEITO A PREFERENCIAL</code></td>
+<td align="center">2.445</td>
+<td align="center">1.930</td>
+<td align="center">1.789</td>
+<td align="center">1.664</td>
+<td align="center">1.271</td>
+</tr>
+<tr class="odd">
+<td align="center"><code>NÃO GUARDAR DISTÂNCIA DE SEGURANÇA</code></td>
+<td align="center">1.188</td>
+<td align="center">1.191</td>
+<td align="center">1.236</td>
+<td align="center">1.110</td>
+<td align="center">802</td>
+</tr>
+<tr class="even">
+<td align="center"><code>COLISÃO LATERAL</code></td>
+<td align="center">1.279</td>
+<td align="center">1.172</td>
+<td align="center">873</td>
+<td align="center">812</td>
+<td align="center">221</td>
+</tr>
+<tr class="odd">
+<td align="center"><code>CONTRA MÃO</code></td>
+<td align="center">1.225</td>
+<td align="center">1.049</td>
+<td align="center">752</td>
+<td align="center">702</td>
+<td align="center">520</td>
+</tr>
+<tr class="even">
+<td align="center"><code>ANIMAIS NA PISTA</code></td>
+<td align="center">1.100</td>
+<td align="center">1.035</td>
+<td align="center">837</td>
+<td align="center">799</td>
+<td align="center">488</td>
+</tr>
+<tr class="odd">
+<td align="center"><code>EXCESSO DE VELOCIDADE</code></td>
+<td align="center">773</td>
+<td align="center">911</td>
+<td align="center">1012</td>
+<td align="center">1350</td>
+<td align="center">921</td>
+</tr>
+<tr class="even">
+<td align="center"><code>OUTROS</code></td>
+<td align="center">11.230</td>
+<td align="center">12.484</td>
+<td align="center">11.001</td>
+<td align="center">11.232</td>
+<td align="center">8.121</td>
+</tr>
+<tr class="odd">
+<td align="center"><code>TOTAL GERAL</code></td>
+<td align="center">31.023</td>
+<td align="center">31.316</td>
+<td align="center">31.384</td>
+<td align="center">30.666</td>
+<td align="center">21.999</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Fonte: CNP/DETRAN-PA</strong></p>
+<div class="progress">
+<div class="progress-bar" style="width: 100%;">
+
+</div>
+</div>
+</div>
+<div id="municípios-1" class="section level2" number="9.8">
+<h2><span class="header-section-number">9.8</span> <strong>MUNICÍPIOS</strong></h2>
+<p><strong>Tabela 25</strong>. Acidentes de Trânsito por Municípios, segundo Ano no Estado do Pará, no período de 2016 a 2020.</p>
+<div class="progress">
+<div class="progress-bar" style="width: 100%;">
+
+</div>
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="estatísticas-de-condutores.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="educação-de-trânsito.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["Anuario_Estatistico_Transito.pdf", "Anuario_Estatistico_Transito.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

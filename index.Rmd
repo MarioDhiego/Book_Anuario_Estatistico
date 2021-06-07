@@ -1,0 +1,30 @@
+--- 
+title: "ANUÁRIO ESTATÍSTICO DE TRÂNSITO NO PARÁ"
+author:
+- name: CARMEN OLIVEIRA^[Estatística, Analista de Trânsito, carmem.oliveira@detran.pa.gov.br]
+- name: KLEBER SALIM^[Matemático, Coodernador de Planejamento, kleber.salim@detran.pa.gov.br]
+- name: MÁRIO VALENTE^[Estatístico, Analista de Trânsito, mario.valente@detran.pa.gov.br]
+- name: MICHELLE BORGES^[Estatistica, Analista de Trânsito, michelle.borges@detran.pa.gov.br]
+-       "[Gerência de Análise e Estatística de Trânsito]"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography:
+- book.bib
+- packages.bib
+biblio-style: apalike
+link-citations: yes
+description: This is a minimal example of using the bookdown package to write a book.
+  The output format for this example is bookdown::gitbook.
+---
+
+# **PREFÁCIO**
+
+Os estudos estatísticos são ferramentas importantes para planejamento, coleta de dados, organização de informações, análise, interpretação e divulgação de resultados. Para o Departamento de Trânsito do Pará, a publicação do Anuário Estatístico de Trânsito mostra, também, como políticas públicas podem resultar em melhorias para a mobilidade urbana, obras de infraestrutura, campanhas educativas e ações de grande impacto na comunidade. Este levantamento reúne o trabalho de instituições e entidades que colaboram para dar continuidade ao registro do trânsito paraense.   
+
+A apresentação das informações sobre o trânsito de uma cidade, estado ou país precisam obrigatoriamente ser confiáveis, afinal, são nelas que se baseiam políticas públicas pensadas na mobilidade urbana, obras de infraestrutura diversas, campanhas educativas e ações de grande impacto na comunidade. Sem dados consistentes, a compreensão sobre o tema é equivocada e a solução de problemas fica ainda mais difícil. A preocupação primordial do DETRAN-PA, ao lançar a primeira edição do Anuário Estatístico de Trânsito, é a confiabilidade dos dados reunidos. Esta publicação pode contribuir para o trabalho dos gestores públicos, pesquisadores, estudantes e para o conhecimento da população em geral. O material é disponibilizado no site da instituição para manter a transparência dos serviços prestados no Estado do Pará com agilidade, eficiência e qualidade ao cidadão.
+
+Os relatórios ora disponibilizados nesta publicação, de modo geral, estão em dissonância com as necessidades estatísticas do DETRAN-PA, porém nosso material, salvo melhor juízo, é para ser utilizado em ações futuras contribuindo para um trânsito melhor e mais seguro.
+
+
+

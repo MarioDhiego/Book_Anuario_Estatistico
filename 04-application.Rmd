@@ -1,0 +1,485 @@
+# **ESTATÍSTICA DE TRÂNSITO** 
+
+## **Estatística de Frota Veicular**
+### **Frota por Tipos de Veículos**
+
+**Tabela 01**. Frota de Veículos Registrados por Tipo, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+  
+  | **TIPOS**             |     $2016$    |    $2017$     |    $2018$      |     $2019$     |  $2020$       |
+  | :------------:        | :-----------: |:------------: | :------------: | :------------: |:------------: |
+  | `AUTOMÓVEL`           | 546.160       | 569.664       | 597.649        | 629.297        | 664.142       |
+  | `CAMINHÃO`            | 66.071        | 68.481        | 70.715         | 73.428         | 76.125        |
+  | `MOTOCICLETA`         | 976.500       | 1.027.387     | 1.077.286      | 1.130.123      | 1.180.497     |
+  | `CAMINHONETE`         | 179.357       | 190.066       | 202.645        | 200.971        | 215.415       |
+  | `ÔNIBUS`              | 23.946        | 24.428        | 25.094         | 25.828         | 26.884        |
+  | `REBOQUE`             | 35.325        | 37.830        | 40.479         | 44.053         | 48.053        |
+  | `OUTROS`              | 261           | 319           | 279            | 14.611         | 16.234        |
+  | `TOTAL GERAL`         | 1.827.620     | 1.918.175     | 2.014.147      | 2.118.592      | 2.227.350     |
+  **Fonte: DTI/DETRAN-PA**
+
+### **Frota por Tipos de Categorias**
+
+**Tabela 02**. Frota de Veículos Registrados por Categoria, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+ | **CATEGORIAS**       |     $2016$    |    $2017$      |    $2018$      |     $2019$     |  $2020$        |
+ | :------------:       | :-----------: | :------------: | :------------: | :------------: | :------------: |
+ | `PARTICULAR`         |  1.725.726    |  1.813.635     |  1.911.203     |   2.016.486    |  2.106.789     |
+ | `ALUGUEL`            |   67.856      |  68.736        |   70.244       |   72.297       |  74.376        |
+ | `TÁXI`               |   15.380      |  17.145        |   19.439       |   21.339       |  22.733        |
+ | `OFICIAL`            |  20.421       |   21.625       |    23.161      |   23.765       |  24.138        |
+ | `TRANSPORTE`         |   11.891      |  12.132        |   12.607       |   13.125       |  13.505        |
+ | `APRENDISAGEM`       |   1.403       |  1.502         |   1.624        |   1.794        |  2.001         |
+ | `OUTROS`             |    51         |   52           |    55          |   56           |   58           |
+ | `TOTAL GERAL`        |  1.842.728    |  1.934.827     |  2.038.333     |  2.029.962     | 2.243.600      |
+ **Fonte: DTI/DETRAN-PA**
+
+
+### **Frota por Tipos de Combustível**
+
+**Tabela 03**. Frota de Veículos Registrados por Tipo de Combustível, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+ | **COMBUSTÍVEL**        |     $2016$    |    $2017$      |    $2018$      |     $2019$     |  $2020$        |
+ | :------------:         | :-----------: | :------------: | :------------: | :------------: | :------------: |
+ | `ALCOOL`               |   23.586      |  23.601        |   23.623       |   23.640       |  23.643        |
+ | `DIESEL`               |   173.383     |  180.668       |   190.427      |  200.855       |  209.799       |
+ | `GASOLINA`             |    901.827    |  925.296       |  949.984       |  973.505       |  993.199       |
+ | `ALCOOL/GASOLINA`      |    704.827    |  764.166       |  830.940       |  904.467       |  967.038       |
+ | `OUTROS`               |     38.761    |   40.766       |  43.050        |  46.017        |  49.306        |
+ | `TOTAL GERAL`          |   1.842.384   |  1.934.497     | 2.038.024      |  2.148.484     |  2.242.985     |
+ **Fonte: DTI/DETRAN-PA**
+
+
+
+
+### **Frota por Tipo de Espécie**
+
+**Tabela 04**. Frota de Veículos Registrados por Espécie, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+ |  **ESPÉCIE**         |     $2016$    |    $2017$      |    $2018$      |     $2019$     |  $2020$        |
+ | :------------:       | :-----------: | :------------: | :------------: | :------------: | :------------: |
+ | `CARGA`              |  168.087      |  176.629       |   178.057      |   183.738      |   189.422      |
+ | `MISTO`              |    57.376     |  60.898        |   65.256       |    69.804      |   73.056       |
+ | `ESPECIAL`           |   70.688      |  78.205        |  87.498        |    97.216      |   105.725      |
+ | `PASSAGEIRO`         |   1.5373.55   | 1.613.608      | 1.697.450      |   1.787.319    |   1.864.130    |
+ | `TRAÇÃO`             |   9.158       | 9.422          |  10.006        |   10.718       |   11.198       |
+ | `TOTAL GERAL`        |  1.842.664    | 1.938.762      | 2.038.267      |   2.148.795    |   2.243.531    |
+ **Fonte: DTI/DETRAN-PA**
+
+
+### **Frota por Ano de Fabricação**
+
+**Tabela 05**. Frota de Veículos Registrados por Ano de fabricação, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+ |  **ANO DE FABRICAÇÃO**     |     $2016$    |    $2017$      |    $2018$      |     $2019$     |  $2020$        |
+ | :------------:             | :-----------: | :------------: | :------------: | :------------: | :------------: |
+ | `0 |--- 1 ANO`             |  93.261       |  92.098        |  103.505       |  110.528       |  94.736        |
+ | `2 |--- 5 ANOS`            |  610.768      |  576.566       |  473.059       |  420.949       |  531.477       |
+ | `6 |--- 10 ANOS`           |  579.169      |  654.136       |  709.613       |  757.866       |  757.866       |
+ |`11 |--- 15 ANOS`           |   249.907     | 292.083        |  359.643       |  415.083       |  415.083       |
+ |`15 ou + ANOS`              |   309.628     |  348.948       |  392.516       |  444.438       |  444.438       |
+ | `TOTAL GERAL`              | 1.842.733     |  1.934.831     | 2.038.336      | 2.148.864      |  2.243.600     |
+ **Fonte: DTI/DETRAN-PA**
+
+
+### **Frota por Tipos de Serviços Veiculares**
+
+**Tabela 06**. Frota de Veículos Registrados por Tipos de Serviços, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+ |  **TIPOS DE SERVIÇOS**          |     $2016$    |    $2017$      |    $2018$      |     $2019$      |  $2020$        |
+ | :------------:                  | :-----------: | :------------: | :------------: | :------------:  | :------------: |
+ | `PRIMEIRO EMPLACAMENTO`         | 95.723        | 102.787        | 90.109         | 99.403          | 92.806         |
+ | `MUDANÇA DE JURISDIÇÃO`         | 54.159        | 60.687         | 64.093         | 68.873          | 59.642         |
+ | `TRANSFERÊNCIA DE PROPRIEDADE`  | 193.380       | 200.541        | 196.510        | 211.966         | 167. 026       |
+ | `INCLUSÃO DE GRAVAME`           | 101.853       | 100.426        | 102.910        | 119.650         | 114.849        |
+ | `BAIXA DE GRAVAME`              | 85.288        | 84.307         | 78.210         | 79.986          | 65.170         |
+ | `TOTAL GERAL`                   | 530.403       | 548.748        | 531.832        | 579.878         | 332.467        |
+ **Fonte: DTI/DETRAN-PA**
+
+
+## **Infração de Trânsito** 
+### **Infração de Trânsito por Gravidade**
+
+**Tabela 08**. Infrações de Trânsito Registradas, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+ | **GRAVIDADE**             |     $2016$    |    $2017$       |    $2018$       |     $2019$      |   $2020$        |
+ | :------------:            | :-----------: | :------------:  | :------------:  | :------------:  | :------------:  |
+ | `MÉDIA`                   |  481.152      | 397.937         |  41.504         |  55.542         |                 |
+ | `LEVE`                    |  15.830       | 17.999          |  49.369         |  34.154         |                 |
+ | `GRAVE`                   |  189.072      |  191.398        |  18.876         |  21.948         |                 |
+ | `GRAVÍSSIMA`              |  411.249      |  409.071        |  21.314         |  23.404         |                 |
+ | `TOTAL GERAL`             |  1.101.921    | 1.016.766       |  1.105.662      | 967.937         |                 |
+ **Fonte: DTI/DETRAN-PA**
+
+
+
+### **Ranking das Infrações**
+
+**Tabela 09**. Infrações de Trânsito Registradas, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+| **TOP 10 INFRAÇÕES**                                            |     $2016$    |    $2017$      |    $2018$       |     $2019$      |
+|:------------:                                                   | :-----------: |:------------:  | :------------:  | :------------:  |
+| `Transitar em Velocidade Superior a Maxima Permitida até 20`    |               |                |                 | 282.267         |
+| `Avançar Sinal vermelho Parada Obrigatória`                     |               |                |                 | 113.229         |
+| `Transitar Velocidade Superior Permitida mais de 20 ate 50`     |               |                |                 | 44.635          |
+| `Transitar na Pista da Dir Reg Cir Excl Determ Veículo`         |               |                |                 | 15.296          |
+| `Estacionar ao Lado ou Sobre Marcas de Canilização`             |               |                |                 | 12.632          |
+| `Conduzir Motoc/Moton/ciclo c/ Capacete s/ Vis/oculos Proteção` |               |                |                 | 11.764          |
+| `Estacionar em Fila Dupla`                                      |               |                |                 |  7.940          |
+| `Estacinar em Local/Horário Proibido Especie P/ Sinalização`    |               |                |                 |  7.418          |
+| `Conduzir Mot/Moton/Ciclo Transp. Passag. Fora do Assento`      |               |                |                 |  6.332          |
+| `COND VC S/ REG. E DEVIDAM. LIC`                                |               |                |                 |  5.321          |
+| `TOTAL GERAL`                                                   |               |                |                 |  498.894        |
+**Fonte: DTI/DETRAN-PA**
+
+
+## **Indicadores de Acidentalidade** 
+
+### **Taxas**
+
+**Tabela 10**. Taxas de Acidentalidade, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+ | **TAXAS**                            |     $2016$    |    $2017$     |    $2018$      |     $2019$     |   $2020$       |
+ |:------------:                        | :-----------: |:------------: | :------------: | :------------: | :------------: |
+ | `TAXA DE MOTORIZAÇÃO GERAL`          | 22.00         | 22.93         |  23.66         | 24.63          |  25.63         |
+ | `TAXA DE MOTORIZAÇÃO DE MOTOCICLETA` | 11.73         | 12.25         |  12.63         | 13.11          |  13.55         |
+ | `TAXA DE MOTORIZAÇÃO DE AUTOMÓVEL`   | 6.57          | 6.81          |  7.02          | 7.31           |  7.64          |
+ | `TAXA DE CRESCIMENTO GERAL`          | 4.95          | 5.00          |  5.19          | 5.13           |   -             |
+ | `TAXA DE ÓBITO/VEÍCULOS`             | 78.79         | 77.68         |  73.53         | 64.43          |  65.67         |
+ | `TAXA DE ÓBITO/HABITANTES`           | 17.33         | 17.81         |  17.40         | 15.87          |  16.86         |
+ | `TAXA DE INTERNAÇÃO/HABITANTES`      | 77.33         | 74.26         |  78.97         | 79.45          |   -             |
+**Fonte: CNP/DETRAN-PA**
+
+
+
+
+### **Regularização**
+
+**Tabela 11**. Percentual de Regularização, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+ | **% de REGULARIZAÇÃO**         |     $2016$    |    $2017$     |    $2018$      |     $2019$     |  $2020$        |
+ |:------------:                  | :-----------: |:------------: | :------------: | :------------: | :------------: |
+ | `REGULARIZAÇÃO DE VEÍCULOS`    |               |               |                |                |                |
+ | `REGULARIZAÇÃO DE CONDUTOR`    |               |               |                |                |                |
+
+
+## **Estatísticas de Condutores**
+### **Categoria da CNH**
+
+**Tabela 12**. Condutores Registrados por Categoria, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+ | **CATEGORIAS DA CNH**  |     $2016$    |    $2017$     |    $2018$      |     $2019$     |  $2020$       |
+ | :------------:         | :-----------: |:------------: | :------------: | :------------: |:------------: |
+ | `A`                    | 33.068        | 33.447        | 33.653         | 35.680         |               |
+ | `AB`                   | 644.462       | 688.479       | 701.568        | 715.472        |               |
+ | `AC`                   | 20.827        | 19.386        | 172.977        | 16.966         |               |
+ | `AD`                   | 139.991       | 144.407       | 146.700        | 149.344        |               |
+ | `AE`                   | 31.390        | 33.473        | 35.353         | 36.815         |               |
+ | `B`                    | 349.643       | 361.766       | 370.886        | 376.787        |               |
+ | `C`                    | 18.786        | 17.154        | 15.806         | 14.832         |               |
+ | `D`                    | 46.053        | 43.995        | 42.172         | 40.864         |               |
+ | `E`                    | 8.356         | 8.278         | 8.254          | 8.267          |               |
+ | `TOTAL GERAL`          | 1.292.576     | 1.350.385     | 1.372.399      | 1.395.027      |               | 
+**Fonte: DTI/DETRAN-PA**
+
+<div class = "progress">
+  <div class = "progress-bar" style = "width: 100%;"> </div>
+</div>
+
+
+
+
+### **Faix Etária**
+
+**Tabela 13**. Condutores Registrados por Idade, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+ | **Faixa Etária**      |     $2016$    |    $2017$     |    $2018$      |     $2019$     |  $2020$       |
+ | :------------:        | :-----------: |:------------: | :------------: | :------------: |:------------: |
+ | `18 |--- 24`          | 110.742       | 109.001       | 98.859         | 84.363         |               |
+ | `25 |--- 34`          | 377.575       | 381.533       | 377.469        | 367.867        |               |
+ | `35 |--- 44`          | 365.322       | 388.145       | 400.591        | 414.033        |               |
+ | `45 |--- 54`          | 277.366       | 241.023       | 249.057        | 262.949        |               |
+ | `55 |--- 64`          | 131.731       | 141.270       | 147.857        | 156.949        |               |
+ | `65 ou +`             | 79.857        | 89.439        | 98.581         | 109.166        |               |
+ | `TOTAL GERAL`         | 1.342.593     | 1.350.411     | 1.372.414      | 1.395.027      |               | 
+**Fonte: DTI/DETRAN-PA**
+
+
+
+
+### **Sexo**
+
+**Tabela 14**. Condutores Registrados por Sexo, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+ | **SEXO**              |     $2016$    |    $2017$     |    $2018$      |     $2019$     |  $2020$       |
+ | :------------:        | :-----------: |:------------: | :------------: | :------------: |:------------: |
+ | `MASCULINO`           | 960.894       | 997.319       | 1.005.248      | 1.019.407      |               |
+ | `FEMININO`            | 169.754       | 353.092       | 367.166        | 375.620        |               |
+ | `TOTAL GERAL`         | 1.130.648     | 1.350.411     | 1.372.414      | 1.395.027      |               | 
+**Fonte: DTI/DETRAN-PA**
+
+
+### **Serviços de CNH**
+
+**Tabela 15**. Condutores Registrados por Tipos de Serviços, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+ |  **TIPOS DE SERVIÇOS DE CNH**  |     $2016$    |    $2017$      |    $2018$      |     $2019$     |  $2020$        |
+ | :------------:                 | :-----------: | :------------: | :------------: | :------------: | :------------: |
+ | `1º HABILITAÇÃO`               | 79.440        | 72.082         | 50.696         |  45.909        | 60.828         |
+ | `2º VIA DA CNH`                | 23.870        | 27.313         | 21.535         |  20.219        | 14.517         |
+ | `RENOVAÇÃO`                    | 164.103       | 182.404        | 195.499        |  178.435       | 186.102        |
+ | `MUDANÇA DE CATEGORIA`         | 17.474        | 17.595         | 13.870         |  13.128        | 15.181         |
+ | `TRANSFERÊNCIA DE JURISDIÇÃO`  | 13.487        | 13.224         | 12.740         |  14.280        | 13.566         |
+ | `CNH DEFINITIVA`               | 75.313        | 72.538         | 65.443         |  51.114        | 32.115         |
+ | `TOTAL GERAL`                  | 373.687       | 385.156        | 359.783        |  323.085       | 322.309        |   **Fonte: DTI/DETRAN-PA**
+
+
+### **Exames**
+
+**Tabela 16**. Exames Médicos e Psicotécnicos, segundo Tipo, no Estado do Pará, no período de 2016 a 2020.
+
+ |  **EXAMES**                    |     $2016$    |    $2017$      |    $2018$      |     $2019$     |  $2020$        |
+ | :------------:                 | :-----------: | :------------: | :------------: | :------------: | :------------: |
+ | `EXAME MÉDICO`                 | 265.288       | 280.022        | 263.379        | 254.703        | 290.956        |
+ |`EXAME PSICOTÉCNICO`            | 141.279       | 145.279        | 122.529        | 125.764        | 163.224        |
+ | `EXAME TEÓRICO`                | 16.649        | 14.542         | 11.146         | 7.671          | 7.380          |
+ | `EXAME PRÁTICO DE MOTOCICLETA` | 76.460        | 69.286         | 48.594         | 43.765         | 51.351         |
+ |`EXAME PRÁTICO DE AUTOMÓVEL`    | 19.535        | 17.879         | 13.866         | 13.178         | 14.437         |
+ |`TOTAL GERAL`                   | 519.211       | 527.008        | 459.514        | 445.081        | 527.348        |
+ **Fonte: DTI/DETRAN-PA**
+
+
+
+## **Estatísticas de Sinistros** 
+### **Sinistros por Tipos**
+
+**Tabela 18**. Sinistros de Trânsito por Tipo, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+ | **TIPOS**                  |     $2016$    |    $2017$     |    $2018$      |     $2019$     |  $2020$       |
+ | :------------:             | :-----------: |:------------: | :------------: | :------------: |:------------: |
+ | `ABALROAMENTO`             | 1.065         | 1.133         | 1.294          |  941           | 502           |
+ | `ATROPELAMENTO`            | 2.082         | 1.866         | 1.341          | 1.489          | 728           |
+ | `CAPOTAMENTO`              | 511           | 630           | 690            | 541            | 446           |
+ | `CHOQUE cOM OBJETO FIXO`   | 1.040         | 1.054         | 1.158          | 950            | 834           |
+ | `COLISÃO COM BICICLETA`    | 1.283         | 1.122         | 811            | 852            | 549           |
+ | `COLISÃO ENTRE VEÍCULOS`   | 19.005        | 19.484        | 21.127         | 20.275         | 14.221        |
+ | `QUEDA DE MOTOCICLETA`     | 5.342         | 5.251         | 4.148          | 4.931          | 4.226         |
+ | `QUEDA DE ÔNIBUS`          | 227           | 244           | 164            | 150            | 61            |
+ | `TOMBAMENTO`               | 353           | 412           | 534            | 432            | 412           |
+ | `OUTROS`                   | 115           | 120           | 117            | 105            | 20            |
+ | `TOTAL GERAL`              | 31.023        | 31.316        | 31.384         | 30.666         | 21.099        | 
+**Fonte: CNP/DETRAN-PA**
+
+
+### **Sinistros por Meses**
+
+**Tabela 19**. Sinistros de Trânsito por Mês, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+ | **MESES**        |     $2016$     |    $2017$      |    $2018$       |     $2019$     |  $2020$        |
+ | :------------:   | :-----------:  |:------------:  | :------------:  | :------------: |:------------:  |
+ | `JANEIRO`        | 2.858          | 2.458          | 2.859           | 2.795          | 2.501          |
+ | `FEVEREIRO`      | 2.557          | 2.194          | 2.901           | 2.706          | 2.433          |
+ | `MARÇO`          | 2.242          | 2.365          | 2.972           | 2.715          | 2.449          |
+ | `ABRIL`          | 2.457          | 2.193          | 2.637           | 2.500          | 2.450          |
+ | `MAIO`           | 2.680          | 2.677          | 2.770           | 2.689          | 2.539          |
+ | `JUNHO`          | 2.662          | 3.183          | 2.441           | 2.690          | 2.508          |
+ | `JULHO`          | 2.525          | 2.813          | 2.568           | 2.471          | 2.328          |
+ | `AGOSTO`         | 2.626          | 2.525          | 3.120           | 2.450          | 2.301          |
+ | `SETEMBRO`       | 2.724          | 3.032          | 2.885           | 2.605          | 2.409          |
+ | `OUTUBRO`        | 2.810          | 3.064          | 2.151           | 2.516          |                |
+ | `NOVEMBRO`       | 2.421          | 2.444          | 2.176           | 2.225          |                |
+ | `DEZEMBRO`       | 2.461          | 2.368          | 1.904           | 2.304          |                |
+ | `TOTAL GERAL`    | 31.026         | 31.316         | 31.384          | 30.666         | 21.099         | 
+**Fonte: CNP/DETRAN-PA**
+
+
+### **Sinistros por Das da Semana**
+
+
+**Tabela 20**. Sinistross de Trânsito por Dias da Semana, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+ | **DIAS D SEMANA**  |     $2016$     |    $2017$      |    $2018$      |     $2019$     |  $2020$       |
+ | :------------:     | :-----------:  |:------------:  | :------------: | :------------: |:------------: |
+ | `DOMINGO`          | 5.349          |  5.242         |  4.420         | 4.313          | 	3.004       |
+ | `SEGUNDA-FEIRA`    | 4.309          |  4.491         |  4.921         | 4.607          |   2.980       |
+ | `TERÇA-FEIRA`      | 3.897          |  4.008         |  4.381         | 4.307          | 	2.935       |
+ | `QUARTA-FEIRA`     | 3.929          |  4.133         |  4.299         | 4.247          |  	2.937       |
+ | `QUINTA-FEIRA`     | 3.870          |  4.159         |  4.180         | 4.199          |   2.934       |
+ | `SEXTA-FEIRA`      | 4.696          |  4.490         |  4.732         | 4.586          |   3.814       |
+ | `SABADO`           | 4.973          |  4.793         |  4.451         | 4.407          |   3.395       |
+ | `TOTAL GERAL`      | 31.023         |  31.316        |  31.384        | 30.666         |  21.999       | 
+**Fonte: CNP/DETRAN-PA**
+
+
+### **Sinistros por Turnos**
+
+
+**Tabela 21**. Sinistros de Trânsito por Turno, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+ | **TURNO**            |     $2016$    |    $2017$     |    $2018$      |     $2019$     |  $2020$       |
+ | :------------:       | :-----------: |:------------: | :------------: | :------------: |:------------: |
+ | `00:01 |--- 05:59`   |               |               |                |                |               |
+ | `06:00 |--- 11:59`   |               |               |                |                |               |
+ | `12:00 |--- 17:59`   |               |               |                |                |               |
+ | `18:00 |--- 23:59`   |               |               |                |                |               |
+ | `TOTAL GERAL`        |               |               |                |                |               | 
+**Fonte: CNP/DETRAN-PA**
+
+
+
+### **Sinistros por Tipos de Vítimas**
+
+
+**Tabela 22**. Sinistros de Trânsito por Tipos de Vítimas, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+ | **FERIDOS**          |     $2016$    |    $2017$     |    $2018$      |     $2019$     |  $2020$       |
+ | :------------:       | :-----------: |:------------: | :------------: | :------------: |:------------: |
+ | `PEDESTRE`           | 1.985         | 1.717         | 1.720          |  1.639         | 1.012         |
+ | `PASSAGEIRO`         | 4.096         | 3.506         | 3.735          |  3.310         | 2.180         |
+ | `CICLISTA`           | 1.036         | 896           | 895            |  731           | 614           |
+ | `CONDUTOR`           | 660           | 601           | 609            |  558           | 348           |
+ | `MOTOCICLISTA`       | 12.189        | 12.434        | 12.058         |  11.777        | 7.650         |
+ | `TOTAL GERAL`        | 19.933        | 19.154        | 19.017         |  18.015        | 11.804        | 
+**Fonte: CNP/DETRAN-PA**
+
+
+
+
+### **Sinistros por Vitima Fatal**
+
+**Tabela 23**. Sinistros de Trânsito por Tipos de Vítimas Fatal, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+ | **MORTOS**           |     $2016$    |    $2017$     |    $2018$      |     $2019$     |  $2020$       |
+ | :------------:       | :-----------: |:------------: | :------------: | :------------: |:------------: |
+ | `PEDESTRE`           | 202           | 228           | 188            |  131           | 103           |
+ | `PASSAGEIRO`         | 264           | 239           | 217            |  212           | 155           |
+ | `CICLISTA`           | 58            | 66            | 55             |  52            | 39            |
+ | `CONDUTOR`           | 107           | 90            | 100            |  94            | 76            |
+ | `MOTOCICLISTA`       | 834           | 819           | 842            |  833           | 525           |
+ | `TOTAL GERAL`        | 1.465         | 1.442         | 1.402          |  1.322         | 898           | 
+**Fonte: CNP/DETRAN-PA**
+
+
+
+### **Principais Causas**
+
+**Tabela 24**. Principais Causas de Sinistros de Trânsito, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+ | **PRINCIPAIS CAUSAS**                |     $2016$    |    $2017$     |    $2018$      |     $2019$     |  $2020$       |
+ | :------------:                       | :-----------: |:------------: | :------------: | :------------: |:------------: |
+ | `FALTA DE ATENÇÃO À CONDUÇÃO`        |  5.960        | 6.513         | 9.106          |  8.387         | 6.999         |
+ | `PERDEU O CONTROLE`                  |  3.591        | 3.068         | 2.872          |  2.725         | 1.300         |
+ | `MANOBRA IRREGULAR`                  |  2.232        | 1.963         | 1.906          |  1.885         | 1.356         |
+ | `DESREIPEITO A PREFERENCIAL`         |  2.445        | 1.930         | 1.789          |  1.664         | 1.271         |
+ | `NÃO GUARDAR DISTÂNCIA DE SEGURANÇA` |  1.188        | 1.191         | 1.236          |  1.110         | 802           |
+ | `COLISÃO LATERAL`                    |  1.279        | 1.172         | 873            |  812           | 221           |
+ | `CONTRA MÃO`                         |  1.225        | 1.049         | 752            |  702           | 520           |
+ | `ANIMAIS NA PISTA`                   |  1.100        | 1.035         | 837            |  799           | 488           |
+ | `EXCESSO DE VELOCIDADE`              |  773          | 911           | 1012           |  1350          | 921           |
+ | `OUTROS`                             |  11.230       | 12.484        | 11.001         |  11.232        | 8.121         |
+ | `TOTAL GERAL`                        | 31.023        | 31.316        | 31.384         |  30.666        | 21.999        |
+**Fonte: CNP/DETRAN-PA**
+
+
+
+## **Educação de Trânsito** 
+### **Ações no Terpaz**
+
+**Tabela 26**. Atividades de Educação de Trânsito no TERPAZ, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+ | **AÇÕES EDUCATIVAS NO TERPAZ**           |     $2019$     |  $2020$        |
+ | :------------:                           | :------------: |:------------:  |
+ | `AÇÕES REALIZADAS`                       |    64          |  109           |
+ | `PALESTRAS EDUCATIVAS`                   |    93          |  195           |
+ | `CRIANÇAS ATENDIDAS`                     |    3.328       | 7.846          |
+ | `ADULTOS ATENDIDOS`                      |    740         | 1.197          |
+ | `TOTAL GERAL`                            |    4.225       | 9.347          |             
+**Fonte: CED/DTO/DETRAN-PA**
+
+
+### **Palestras Educativas**
+
+**Tabela 27**. Palestras e Curso de Capcitação em Educação de Trânsito por Tipos, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+ | **PALESTRAS/CURSOS**              |     $2019$     |  $2020$       |
+ | :------------:                    | :------------: |:------------: |
+ | `PALESTRAS EM EMPRESAS`           |  14            |    21         |
+ | `PALESTRAS CUMPRIDORES/TJE`       |  37            |   18          |
+ | `CURSO DE MOTOTAXISTA`            |  23            |   9           |
+ | `ADULTOS ATENDIDOS/EMPRESAS`      |  1.074         |   688         |
+ | `ADULTOS ATENDIDAS/TJE`           |  152           |   52          |
+ | `MOTOTAXISTAS FORMADOS`           |  588           |   538         |
+ | `TOTAL GERAL`                     |  1.888         |   1.326       |             
+**Fonte: CED/DTO/DETRAN-PA**
+
+
+
+### **OPERAÇÕES SAZONAIS**
+
+**Tabela 28**. Operações Sazonais em Educação de Trânsito por Tipos, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+ | **OPERAÇÕES SAZONAIS**            |     $2019$     |  $2020$       |
+ | :------------:                    | :------------: |:------------: |
+ | `Paradas Educativas`              |  63            |   204         |
+ | `Veiculos Abordados`              |  9.512         |   39.519      |
+ | `Adultos Orientados`              |  32.307        |   97.629      |
+ | `Crianças Atendidas`              |  3.350         |   1.366       |
+ | `Ações Realizadas/Praias`         |  24            |   8           |
+ | `Pessoas Orientadas/Praias`       |  3.453         |  1.358        |
+ | `Barracas Atendidas/Praias`       |  25            |  95           |
+ | `TOTAL GERAL`                     |  48.734        |  139.839      |    
+**Fonte: CED/DTO/DETRAN-PA**
+
+
+
+### **Ações Educativas Regionalizadas**
+
+**Tabela 29**. Ações de Educação de Trânsito por Região de Integração, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+ | **REGIÃO DE INTEGRAÇÃO**             |     $2016$     |     $2017$     |  $2018$        | $2019$        | $2020$        |
+ | :------------:                       | :------------: |:------------:  | :------------: |:------------: |:------------: |
+ | `ARAGUAIA`                           |  -             |    29          |   25           |    12         |   21          |
+ | `BAIXO AMAZONAS`                     |     10         |    3           |   45           |    21         |   64          |
+ | `CARAJÁS`                            |     41         |    9           |   49           |    17         |   41          |
+ | `GUAJARÁ`                            |     131        |    95          |   109          |    232        |   127         |
+ | `GUAMÁ`                              |     61         |    51          |   67           |    42         |   56          |
+ | `LAGO DE TUCURUÍ`                    |     18         |    17          |   20           |    -          |   19          |
+ | `MARAJÓ`                             |     27         |     7          |   24           |    31         |   29          |
+ | `RIO CAETÉ`                          |     151        |    84          |   75           |    57         |   77          |
+ | `RIO CAPIM`                          |     21         |    8           |   75           |    17         |   21          |
+ | `TAPAJÓS`                            |     9          |    1           |   2            |    6          |   12          |
+ | `TOCANTINS`                          |     38         |   69           |   58           |    35         |   42          |
+ | `XINGU`                              |     7          |   11           |   10           |    23         |   31          |
+ | `TOTAL GERAL`                        |     514        |   384          |   559          |    493        |   540         |
+**Fonte: SIGPLAN/CNP/DETRAN-PA**
+
+
+
+## **Operações de Fiscalização** 
+### **Operações por Tipos**
+
+**Tabela 30**. Operações de Fiscalização de Trânsito por Tipos, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+ | **OPERAÇÕES**          |     $2016$    |    $2017$     |    $2018$      |     $2019$     |  $2020$       |
+ | :------------:         | :-----------: |:------------: | :------------: | :------------: |:------------: |
+ | `OPERAÇÕES REALIZADAS` |   6.919       | 7.121         |  4.654         |  6.776         | 5.886         |
+ | `VEÍCULOS REMOVIDOS`   |   17.481      | 16.850        | 7.479          |  4.242         | 2.717         |
+ | `AUTUAÇÕES APLICADAS`  |   70.961      | 79.323        | 47.911         |  69.364        | 54.228        |
+ | `TOTAL GERAL`          |  326.534      | 317.339       | 183.291        |  110.314       | 83.771        | 
+**Fonte: COFT/DTO/DETRAN-PA**
+
+
+
+## **Processos Jurídicos** 
+### **Processos por Tipos**
+
+**Tabela 31**. Processos Jurídicos de Trânsito por Tipos, segundo Ano no Estado do Pará, no período de 2016 a 2020.
+
+ | **PROCESSOS**           |     $2016$    |    $2017$     |    $2018$      |     $2019$     |  $2020$       |
+ | :------------:          |:-----------:  |:------------: | :------------: | :------------: |:------------: |
+ | `RECURSOS DE DEFESA`    |               |               |                |                |               |
+ | `CASSAÇÃO DE CNH`       |               |               |                |                |               |
+ | `SUSPENSÃO APLICADAS`   |               |               |                |                |               |
+ | `EFEITO SUSPENSIVO`     |               |               |                |                |               |
+ | `TOTAL GERAL`           |               |               |                |                |               | 
+**Fonte: PROJUR/DETRAN-PA**
+

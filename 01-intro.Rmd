@@ -1,0 +1,67 @@
+# **INTRODUÇÃO**
+
+
+O Anuário Estatístico de 2020 expressa o resultado de uma ação de vanguarda, levada a efeito por uma administração competente e comprometida com a comunidade a que serve. Importante, não só como fonte de pesquisa e de informações, o Anuário é de extrema utilidade para facilitar o acesso a dados, por vezes difíceis de compilar, revelando-se, assim, um instrumento prático e eficiente.    
+
+
+O Anuário Estatístico de Trânsito do Detran-PA é um catálogo que engloba dados estatísticos sobre **Sinistros de Trânsito**, **Frota de Veículos**, **Habilitação**, **Infrações e outros indicadores**. O documento é elaborado anualmente, com informações divididas por municípios, e foi criado para ser uma referência e produzir ações que promovam a qualidade de vida dos cidadãos, condutores e pedestres. Com o Anuário, o Detran-PA objetiva transmitir o real cenário da realidade do trânsito Paraense e nortear as ações que tem como foco a redução da gravidade dos acidentes, além de ser uma ferramenta de pesquisa e estudo sobre trânsito e mobilidade urbana no Estado do Pará. O documento também está alinhado com o do Registro Nacional de Acidentes e Estatística de Trânsito (Renaest), vinculado ao Denatran. O Renaest disponibiliza informações estatísticas sobre os acidentes de trânsito em todo país, conforme a Resolução n° 808 de 2020.
+
+
+As fontes de informações que alimentam o Anuário Estatístico de Acidentes de Trânsito Web do DETRAN-PA, são:
+
+- [X] **RENAVAN**: o Registro Nacional de Veiculos Automotores é um sistema desenvolvido pelo SERPRO que cobre todo do Brasil, tendo como principal finalidade de registro de todos os veículos no País, efetuados pelas unidades do Detran em cada estado, e centralizados pela unidade central, o Denatran;
+- [X] **RENACH**: O Registro Nacional de Carteira de Habilitação é um sistema que registra todas as informações do condutor, controla ainda a emissão da CNH e da PID – Permissão Internacional para Dirigir, que é o documento necessário para que um brasileiro possa dirigir no exterior (nos países signatários da Convenção de Viena);
+- [X] **RENAINF**: O Registro Nacional de Infração de Trânsito é um sistema que registra e possibilita a notificação da autuação e da penalidade para as multas cometidas em unidade da federação diferente de registro do veículo. Integrado ao RENAVAN e ao RENACH; 
+- [X] **SEST**: o Sistema de Estatística de Sinistros de Trânsito, foi desenvolvido com interface web em linguagem de programação javascrip, com as bases de dados alocados em Banco do tipo Oracle.
+- [X] **SIGPLAN**: o Sistema de informações Gerenciais e de Planejamento do Plano Plurianual (PPA), contendo dados sobre Monitoramento, Avaliação e revisão do PPA e, contendo as ações do Governo do Estado do Pará;
+
+**Figura 01**. Fluxo de Informação sobre as Fontes de Dados do Anuário Estatístico de Sinistros de Trânsito no Estado do Pará.
+
+
+```{r diagrama3, echo=FALSE, message=FALSE, warning=FALSE}
+library(htmlwidgets)
+library(htmltools)
+library(DiagrammeR)
+mermaid("
+graph LR
+A[MICRODADOS]-->B[COLETA]
+B-->C[CRÍTICA]
+C-->D{FONTES}
+D-->E[RENAVAN]
+D-->F[RENACH]
+D-->G[RENAINF]
+D-->H[SEST]
+D-->I[SIGPLAN]
+E-->J[ANUÁRIO WEB]
+F-->J[ANUÁRIO WEB]
+G-->J[ANUÁRIO WEB]
+H-->J[ANUÁRIO WEB]
+I-->J{ANUÁRIO WEB}
+", width = 800)
+```
+
+
+## Justificativa e Importância do Anuário
+
+O controle e análise de estatísticas são fundamentais em qualquer área de atividade, pois eles que permitem identificar os principais problemas, além de definir prioridades e avaliar o resultado dos trabalhos executados. 
+
+No Brasil, valoriza-se pouco a coleta, a tabulação, o processamento, a análise e a utilização de dados, dando pouca importância a esses aspectos por falta de tradição e, também, muitas vezes por desconhecimento dessas informações para a orientação de trabalhos. O alto custo das pesquisas e a necessidade de recursos humanos e materiais contribuem para esta deficiência. Na área do trânsito não é diferente. Entretanto, o Código de Trânsito Brasileiro exige que seja feito o controle e análise de estatísticas e o município deve atender esta exigência, percebendo sua importância. Os dados de acidentes são fundamentais para orientar um programa de tratamento de pontos críticos, assim como, aferir os resultados das intervenções realizadas nas vias, elaborando-se estudos antes e depois das intervenções e projetos implantados. Dessa forma, é possível a correção eventual de falhas nas implantações realizadas, assim como, a aferição dos benefícios obtidos em função do custo das intervenções.
+
+Para reverter essa situação, dados confiáveis e precisos são necessários para aumentar a consciência sobre a magnitude real dos acidentes de trânsito e também para convencer os tomadores de decisão de que há uma demanda real e urgente por ações eficazes.
+
+Além disso, dados confiáveis e precisos também são necessários para identificar corretamente problemas, fatores de risco e áreas prioritárias, e para formular estratégias, definir metas e monitorar o desempenho. O diagnóstico e a gestão dos principais problemas relacionados a acidentes de trânsito devem ser continuados e baseados em dados reais, de maneira que ações adequadas sejam tomadas e os recursos sejam alocados apropriadamente. Sem isso, é impossível haver uma redução significativa e sustentável tanto do nível de exposição da população ao risco de acidentes quanto da gravidade dos mesmos.
+
+
+
+## Objetivos
+### Objetivo Geral
+
+Catalogar informações estatísticas, para compreensão das entidades públicas e privadas direta ou indiretamente ligadas ao trânsito, subsidiando o planejamento e avaliação das políticas públicas voltadas a redução de Sinistros de trânsito no âmbito do Pará.
+
+### Objetivos Específicos
+
+- Estabelecer uma sistemática para comunicação, registro, controle, consulta,
+acompanhamento e implantação de uma base regional de Estatísticas de Trânsito,
+- Subsidiar o desenvolvimento de estudos, pesquisas e ações que visem à melhoria da segurança viária no Pará;
+
+
